@@ -1,0 +1,71 @@
+body{
+    background-color: burlywood;
+    background: radial-gradient(circle, #c3701d 0%, #dfb6b9 100%);
+
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    background-color: #522c00;
+    color: wheat;
+    border-radius: 20px;
+    text-shadow: 2px 2px #464646;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-family: 'bagel fat one' cursive;
+
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+.card{
+    width: max-content;
+    margin: 50px auto;
+    padding: 0 50px 15px 50px;
+    border-radius: 50px;
+    background-color: #f5f5dc76;
+    box-shadow:  2px 2px 2px 2px #00000054;
+    font-family: 'orbit' sans-serif;
+}
+.answer {
+    align-content: center;
+    margin: auto 200px;
+
+}
+.answer input {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+   font-family: 'signika negative',sans-serif;
+   padding: 10px 10px;
+   border-radius: 5px;
+}
+.answe input::placeholder{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+
+}
+button{
+    color: black;
+    padding: 18px 18px;
+    border: solid 1px #ffffff30;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: #b184448b;
+    box-shadow: 2px 2px 2px 2px #00000054;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+button:hover{
+   background-color: #634b00a6;
+   font-weight: bold;
+   color: #e9e8d5;
+   letter-spacing: 1px;
+}
+
